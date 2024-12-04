@@ -1,0 +1,70 @@
+/*works in 
+Phone(it might now work in older phones)
+Computer(depends what OS you using)*/
+
+/*Background settings and color settings*/
+.testing {
+  /*If there is a black screen that means you broke the code and not my fault*/
+/*This background was from my https://codepen.io/Bunnypro/pen/eYgPMzj 
+If you don't know how it works. (note the link to the code is old)*/
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background-size: 1800% 1800%;
+  animation: rainbow 30s ease infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background: #f41617;
+  }
+  25% {
+    background: #82f50a;
+  }
+  50% {
+    background: #0ce3eb;
+  }
+  75% {
+    background: #026e2b;
+  }
+  100% {
+    background: #f41617;
+  }
+}
+
+/* Font-size settings*/
+fontly {
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+}
+fontly2 {
+  font-size: 40px;
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  text-align: center;
+}
+Working {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  text-align: center;
+}
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
